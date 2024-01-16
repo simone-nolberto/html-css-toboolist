@@ -1,3 +1,12 @@
-#logo-text{
+#logo{
     vertical-align: middle;
+}
+#logo-text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 800;
+}
+#task-button{   
+    background-color: aqua;
+    border-radius: 10px;
 }
