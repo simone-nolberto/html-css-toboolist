@@ -1,3 +1,7 @@
+body{
+    box-sizing: border-box;
+    margin: auto;
+}
 #site_header{
     background-color: white;
 }
@@ -31,8 +35,20 @@ body{
     border-radius: 4px;
 }
 #task-button{   
-    background-color: lightblue;
-    border-radius: 10px;
+    background-color: rgba(71, 173, 241, 100);
+    border-radius: 8px;
+    color: white;
+    height: 25px;
+    border: 1px solid red;
+    width: 75px;
+}
+#section-button{
+    color: lightgray;
+    border-radius: 8px;
+    background-color: white;
+    height: 25px;
+    border: 1px solid lightgray;
+    width: 90px;
 }
 .w3-tag{
     border-radius: 8px;
@@ -40,22 +56,27 @@ body{
     font-size: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
+    color: white;
+}
+.section-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 .w3-tag#editorial{
-    background-color: lightblue;
+    background-color: rgba(71, 173, 241, 100);
 }
 .w3-tag#goals{
-    background-color: palevioletred;
+    background-color: rgba(156, 114, 228, 100);
 }
 .w3-tag#team{
-    background-color: lightseagreen;
+    background-color: rgba(100, 192, 169, 100)   ;
 }
 .w3-tag#app{
-    background-color: lightsalmon;
+    background-color: rgba(242, 158, 51, 100)
 }
 .w3-tag#web{
-    background-color: pink;
+    background-color: rgba(216, 99, 161, 100);
 }
 .w3-tag#sales{
-    background-color: greenyellow;
+    background-color: rgba(176, 201, 38, 100);
 }
