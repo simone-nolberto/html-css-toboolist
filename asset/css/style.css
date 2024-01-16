@@ -7,6 +7,28 @@
     font-weight: 800;
 }
 #task-button{   
-    background-color: aqua;
+    background-color: lightblue;
     border-radius: 10px;
+}
+.w3-tag{
+    border-radius: 8px;
+    padding: 3px;
+}
+.w3-tag#editorial{
+    background-color: lightblue;
+}
+.w3-tag#goals{
+    background-color: palevioletred;
+}
+.w3-tag#team{
+    background-color: lightseagreen;
+}
+.w3-tag#app{
+    background-color: lightsalmon;
+}
+.w3-tag#web{
+    background-color: pink;
+}
+.w3-tag#sales{
+    background-color: greenyellow;
 }
